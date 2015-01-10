@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<Button android:text="Get Route and Driving Directions."
+		android:layout_height="wrap_content" android:id="@+id/btnShowRoute" android:layout_width="match_parent"/>
+	<com.google.android.maps.MapView
+		android:id="@+id/mapview" android:enabled="true" android:clickable="true"
+		android:apiKey="0hSyGlmaZ56FFBOa4k9JIFTebx6qv4F9he52mOQ"
+		android:layout_width="match_parent" android:layout_height="match_parent" />
+
+</LinearLayout>
